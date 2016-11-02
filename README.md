@@ -12,17 +12,17 @@ $ meteor
 Get error:
 
 ```bash
-W20161102-15:44:52.595(1)? (STDERR) Error: Cannot find module '/node_modules/npmPack/foobar.js'
-W20161102-15:44:52.595(1)? (STDERR)     at require (packages/modules-runtime.js:109:19)
-W20161102-15:44:52.595(1)? (STDERR)     at meteorInstall.node_modules.npmPack.index.js (packages/modules.js:346:14)
-W20161102-15:44:52.596(1)? (STDERR)     at fileEvaluate (packages/modules-runtime.js:181:9)
-W20161102-15:44:52.596(1)? (STDERR)     at Module.require (packages/modules-runtime.js:106:16)
-W20161102-15:44:52.596(1)? (STDERR)     at Module.Mp.import (/home/perfre/.meteor/packages/modules/.0.7.7.ljfope++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)
-W20161102-15:44:52.597(1)? (STDERR)     at meteorInstall.index.js (/home/perfre/workspace/ps/requireProblems/meteorProj/.meteor/local/build/programs/server/app/app.js:21:25)
-W20161102-15:44:52.597(1)? (STDERR)     at fileEvaluate (packages/modules-runtime.js:181:9)
-W20161102-15:44:52.597(1)? (STDERR)     at require (packages/modules-runtime.js:106:16)
-W20161102-15:44:52.598(1)? (STDERR)     at /home/perfre/workspace/ps/requireProblems/meteorProj/.meteor/local/build/programs/server/app/app.js:45:1
-W20161102-15:44:52.598(1)? (STDERR)     at /home/perfre/workspace/ps/requireProblems/meteorProj/.meteor/local/build/programs/server/boot.js:295:34
+W20161102-16:59:06.176(1)? (STDERR) Error: Cannot find module './foobar.js'
+W20161102-16:59:06.177(1)? (STDERR)     at require (packages/modules-runtime.js:109:19)
+W20161102-16:59:06.177(1)? (STDERR)     at meteorInstall.node_modules.npmPack.index.js (packages/modules.js:346:14)
+W20161102-16:59:06.177(1)? (STDERR)     at fileEvaluate (packages/modules-runtime.js:181:9)
+W20161102-16:59:06.178(1)? (STDERR)     at Module.require (packages/modules-runtime.js:106:16)
+W20161102-16:59:06.178(1)? (STDERR)     at Module.Mp.import (/home/perfre/.meteor/packages/modules/.0.7.7.ljfope++os+web.browser+web.cordova/npm/node_modules/reify/lib/runtime.js:70:16)
+W20161102-16:59:06.179(1)? (STDERR)     at meteorInstall.index.js (/home/perfre/workspace/ps/requireProblems/meteorProj/.meteor/local/build/programs/server/app/app.js:9:25)
+W20161102-16:59:06.179(1)? (STDERR)     at fileEvaluate (packages/modules-runtime.js:181:9)
+W20161102-16:59:06.180(1)? (STDERR)     at require (packages/modules-runtime.js:106:16)
+W20161102-16:59:06.181(1)? (STDERR)     at /home/perfre/workspace/ps/requireProblems/meteorProj/.meteor/local/build/programs/server/app/app.js:17:1
+W20161102-16:59:06.182(1)? (STDERR)     at /home/perfre/workspace/ps/requireProblems/meteorProj/.meteor/local/build/programs/server/boot.js:295:34
 => Exited with code: 1
 ```
 
