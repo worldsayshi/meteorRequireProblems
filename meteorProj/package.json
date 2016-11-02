@@ -1,0 +1,11 @@
+{
+  "name": "meteorProj",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "npmPack": "file:///home/perfre/workspace/ps/requireProblems/npmPack"
+  }
+}
