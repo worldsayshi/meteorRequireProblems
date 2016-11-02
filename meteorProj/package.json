@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
-    "npmPack": "file:///home/perfre/workspace/ps/requireProblems/npmPack"
+    "npmPack": "file:../npmPack"
   }
 }
