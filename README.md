@@ -52,7 +52,7 @@ I20161102-15:54:04.179(1)? { foo: 'bar' }
 
 ```
 
-My system:
+# My system:
 
 ```bash
 $ meteor --version
@@ -68,6 +68,6 @@ Codename:	xenial
 
 ```
 
-# Issue:
+# Relevant ticket:
 
 https://github.com/meteor/meteor/issues/8005#issuecomment-258176801
